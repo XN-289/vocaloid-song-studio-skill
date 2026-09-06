@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "title": {
+    "ja": "<日本語タイトル>",
+    "zh": "<中文标题>"
+  },
+  "language": "ja",
+  "project_type": "original-vocal-synth-narrative-song",
+  "target": {
+    "duration_seconds": {
+      "min": 210,
+      "max": 230
+    },
+    "bpm": {
+      "min": 180,
+      "max": 195
+    },
+    "meter": "4/4",
+    "key_strategy": "minor verses, luminous chorus, darker final chorus",
+    "vocal_range": "A3-E5, optional brief G5"
+  },
+  "sections": [
+    {"tag": "Intro", "lines": 2},
+    {"tag": "Verse 1", "lines": 8},
+    {"tag": "Pre-Chorus 1", "lines": 4},
+    {"tag": "Chorus 1", "lines": 8},
+    {"tag": "Verse 2", "lines": 8},
+    {"tag": "Pre-Chorus 2", "lines": 4},
+    {"tag": "Chorus 2", "lines": 8},
+    {"tag": "Bridge", "lines": 8},
+    {"tag": "Final Chorus", "lines": 10},
+    {"tag": "Outro", "lines": 2}
+  ],
+  "hook": {
+    "source_section": "Chorus 1",
+    "line_numbers": [1, 2, 3, 4],
+    "repeat_sections": ["Chorus 2"],
+    "transform_section": "Final Chorus",
+    "strategy": "minimum-word semantic reversal over recognizable melody"
+  },
+  "files": {
+    "design": "lyrics-design.md",
+    "lyrics": "lyrics-ja.md",
+    "reading_translation": "lyrics-reading-zh.md",
+    "production_prompt": "music-agent-prompt.md",
+    "cover_prompt": "cover-prompt.md",
+    "release_copy": "release-copy.md"
+  }
+}
