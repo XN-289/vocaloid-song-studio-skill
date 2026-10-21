@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "title": {
+    "zh": "别怕别怕"
+  },
+  "language": "zh",
+  "project_type": "original-ai-music-competition-single",
+  "competition": "2026青年AI音乐嘉年华·单曲组·提报口径：青春理想×成长经历（朋友间的鼓励与陪伴）",
+  "lyrics_version": "v1.1-frozen-2026-10-15",
+  "target": {
+    "duration_seconds": {
+      "min": 180,
+      "max": 210
+    },
+    "bpm": 124,
+    "meter": "4/4",
+    "key_strategy": "C major overall, A minor-flavored bridge, final chorus modulates up a whole step to D major",
+    "vocal_range": "female lead A3-C5; final chorus peaks B4 with choir support; male fallback down 3-4 semitones"
+  },
+  "lead_voice": {
+    "gender": "female",
+    "age_feel": "youthful",
+    "timbre": "bright, warm, plainspoken young female lead, no grit, no scream",
+    "narrative_role": "first-person friend comforting the listener; intro/outro hook sung softly like coaxing; bridge confessional"
+  },
+  "sections": [
+    {
+      "tag": "前奏",
+      "lines": 1
+    },
+    {
+      "tag": "副歌一",
+      "lines": 6
+    },
+    {
+      "tag": "主歌一",
+      "lines": 8
+    },
+    {
+      "tag": "副歌二",
+      "lines": 6
+    },
+    {
+      "tag": "主歌二",
+      "lines": 8
+    },
+    {
+      "tag": "桥段",
+      "lines": 4
+    },
+    {
+      "tag": "结尾副歌",
+      "lines": 6
+    },
+    {
+      "tag": "尾声",
+      "lines": 2
+    }
+  ],
+  "hook": {
+    "source_section": "副歌一",
+    "line_numbers": [
+      1,
+      3
+    ],
+    "repeat_sections": [
+      "副歌二"
+    ],
+    "transform_section": "结尾副歌",
+    "strategy": "sentence-level repetition only: hook pair (lines 1,3) verbatim; chorus 2 upgrades content lines (你回头的时候我在/照样出来/一起嗨/唱到天亮起来); final chorus upgrades again (为你出来/唱起来) with whole-step lift; no whole-section verbatim repeats (L8)"
+  },
+  "fixed_readings": {
+    "数（shu）心跳": "shǔ",
+    "冲（chong）我笑笑": "chòng",
+    "咽（yan）回肚里": "yàn",
+    "我在呢": "wǒ zài ne",
+    "的/了/地/着": "light, never on sustained notes"
+  },
+  "files": {
+    "design": "lyrics-design.md",
+    "lyrics": "lyrics-zh.md",
+    "reading_translation": "lyrics-singing-guide.md",
+    "production_prompt": "music-agent-prompt.md",
+    "cover_prompt": "cover-prompt.md",
+    "release_copy": "release-copy.md",
+    "submission_guide": "提交攻略.md"
+  }
+}

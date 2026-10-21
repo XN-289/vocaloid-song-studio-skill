@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "title": {
+    "en": "Borrowed Water",
+    "zh": "借来的水"
+  },
+  "language": "en",
+  "project_type": "original-surrealist-retrofuturist-art-pop-ocean-transmission-song",
+  "lyrics_version": "v1.0-frozen-2026-09-25",
+  "target": {
+    "duration_seconds": {
+      "min": 128,
+      "max": 148
+    },
+    "hard_max_duration_seconds": 150,
+    "bpm": 74,
+    "meter": "4/4 half-time feel; Bridge may rubato one bar",
+    "key_strategy": "A minor verses, F major-leaning chorus, C major outro",
+    "vocal_range": "A3-E5, optional airy G5"
+  },
+  "lead_voice": {
+    "gender": "female",
+    "age_feel": "adult",
+    "timbre": "deadpan ceremonial broadcast, flat even pitch, zero breathiness, zero intimacy; verses flat solo, choruses processional unison choir",
+    "narrative_role": "automated tide-archive choir voice; ocean is the subject, humans are guests; never a lover, mermaid, saint, or preacher"
+  },
+  "sound_world": "hauntological analog electronics: sine drones, Mellotron choir tapes, Ondes Martenot glissandi, tape wow and flutter, sonar pulse, shortwave drift, hydrophone textures, spring reverb; mid-distance dry vocal, short plate tail",
+  "sections": [
+    {"tag": "Intro", "lines": 1},
+    {"tag": "Verse 1", "lines": 4},
+    {"tag": "Pre-Chorus", "lines": 2},
+    {"tag": "Chorus 1", "lines": 6},
+    {"tag": "Verse 2", "lines": 4},
+    {"tag": "Chorus 2", "lines": 6},
+    {"tag": "Bridge", "lines": 2},
+    {"tag": "Outro", "lines": 2}
+  ],
+  "hook": {
+    "source_section": "Chorus 1",
+    "line_numbers": [1, 2, 3, 4],
+    "repeat_sections": ["Chorus 2"],
+    "strategy": "same words, changed color: from nostalgia to holding-on"
+  },
+  "diction_notes": {
+    "chandelier": "three syllables, stress the last, lift upward",
+    "borrowed": "two syllables, never three",
+    "cathedral": "slow, long middle vowel in Bridge",
+    "plastic": "the only dry, plainly articulated word"
+  },
+  "rhyme_design": {
+    "verse_pattern": "XAXA: lines 2 and 4 full rhyme, lines 1 and 3 free; free lines carry the strangest surreal images",
+    "pre_chorus_pattern": "slant rhyme: sent/breath, same vowel, different final consonant",
+    "chorus_pattern": "ABAB: names/frames full rhyme, dreaming/leaving near rhyme, closing hands/again couplet intentionally unrhymed",
+    "bridge_outro_pattern": "unrhymed; rhyme dissolves as the truth is revealed",
+    "strategy": "mixed strict rhyme, slant rhyme, and free rhyme; never bend words to force a rhyme"
+  },
+  "motif": {
+    "name": "water motif",
+    "intro": "E-D-B-C-A descending in A minor",
+    "chorus": "A-B-D-E inverted for light",
+    "outro": "resolve upward to C, then dissolve"
+  },
+  "files": {
+    "production_prompt": "music-agent-prompt.md"
+  },
+  "short_edit": {
+    "version": "v1.1-short-2026-09-25",
+    "max_duration_seconds": 150,
+    "bpm": 80,
+    "strategy": "crop first; if needed regenerate without the Chorus 2 repetition and Intro vocalise",
+    "allowed_cut": "remove the Chorus 2 repetition only; all other lines remain frozen",
+    "style_additions": "compact two-minute form, starts on first vocal line, no instrumental intro, no instrumental break, no extended outro",
+    "exclude_additions": "long intro, instrumental break, extended outro, repeated chorus"
+  }
+}

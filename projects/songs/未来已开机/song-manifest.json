@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "title": {
+    "zh": "未来已开机"
+  },
+  "language": "zh",
+  "project_type": "original-ai-music-competition-single",
+  "competition": "2026青年AI音乐嘉年华·单曲组·未来想象主题",
+  "lyrics_version": "v1.3-frozen-2026-10-15",
+  "target": {
+    "duration_seconds": {
+      "min": 200,
+      "max": 240
+    },
+    "bpm": 136,
+    "meter": "4/4",
+    "key_strategy": "E minor verses, G major chorus, C-D-Em suspended bridge, final chorus modulates up a whole step to A major",
+    "vocal_range": "female lead A3-C5; final chorus peaks B4 with choir support; male fallback down 3-4 semitones"
+  },
+  "lead_voice": {
+    "gender": "female",
+    "age_feel": "youthful",
+    "timbre": "clear, sincere, youthful female lead, no grit, no scream",
+    "narrative_role": "first-person student recording a song to the future; intro/outro radio-check spoken tone; outro answer line sung by backing layer"
+  },
+  "sections": [
+    {"tag": "前奏", "lines": 2},
+    {"tag": "主歌一", "lines": 8},
+    {"tag": "预副歌一", "lines": 4},
+    {"tag": "副歌一", "lines": 6},
+    {"tag": "主歌二", "lines": 8},
+    {"tag": "预副歌二", "lines": 4},
+    {"tag": "副歌二", "lines": 6},
+    {"tag": "桥段", "lines": 5},
+    {"tag": "结尾副歌", "lines": 6},
+    {"tag": "尾声", "lines": 2}
+  ],
+  "hook": {
+    "source_section": "副歌一",
+    "line_numbers": [1, 3],
+    "repeat_sections": ["副歌二"],
+    "transform_section": "结尾副歌",
+    "strategy": "sentence-level repetition only: hook pair (lines 1,3) verbatim across all choruses; chorus 2 upgrades all content lines (第二句会是你的回应/我的歌声正在靠近/回信正在穿过夜里/你收到请亮一下灯); final chorus flips line 3 已→我; no whole-section verbatim repeats (L8)"
+  },
+  "fixed_readings": {
+    "收藏": "shōu cáng",
+    "咳个不停": "ké",
+    "备份": "bèi fèn",
+    "的/了/着": "light, never on sustained notes"
+  },
+  "files": {
+    "design": "lyrics-design.md",
+    "lyrics": "lyrics-zh.md",
+    "reading_translation": "lyrics-singing-guide.md",
+    "production_prompt": "music-agent-prompt.md",
+    "cover_prompt": "cover-prompt.md",
+    "release_copy": "release-copy.md",
+    "submission_guide": "提交攻略.md"
+  }
+}

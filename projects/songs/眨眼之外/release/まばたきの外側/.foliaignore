@@ -1,0 +1,3 @@
+# Backups kept beside the package can be excluded with these patterns.
+Tunee_*.lrc
+*_original.*

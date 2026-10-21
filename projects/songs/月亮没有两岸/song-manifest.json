@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "title": {
+    "zh": "月亮没有两岸"
+  },
+  "language": "zh",
+  "project_type": "original-ai-music-competition-single",
+  "competition": "2026青年AI音乐嘉年华·单曲组·提报口径：亲情友情（两岸亲情）；备选口径：未来想象（团圆那一天）",
+  "lyrics_version": "v1.3-frozen-2026-10-15",
+  "target": {
+    "duration_seconds": {
+      "min": 210,
+      "max": 250
+    },
+    "bpm": 88,
+    "meter": "4/4",
+    "key_strategy": "D major overall, Bm-flavored verses, G-A-D suspended bridge, final chorus modulates up a whole step to E major",
+    "vocal_range": "female lead A3-C5; final chorus peaks B4 with choir support; male fallback down 3-4 semitones"
+  },
+  "lead_voice": {
+    "gender": "female",
+    "age_feel": "youthful",
+    "timbre": "warm, sincere, folk-rooted youthful female lead, no grit, no scream",
+    "narrative_role": "first-person grandchild narrating; intro spoken lines in grandma-relayed tone; opera-flavored phrase at Verse 2 line 5 sung by a distant separate voice; outro theme line sung softly"
+  },
+  "sections": [
+    {"tag": "前奏", "lines": 2},
+    {"tag": "主歌一", "lines": 8},
+    {"tag": "预副歌一", "lines": 4},
+    {"tag": "副歌一", "lines": 6},
+    {"tag": "主歌二", "lines": 8},
+    {"tag": "预副歌二", "lines": 4},
+    {"tag": "副歌二", "lines": 6},
+    {"tag": "桥段", "lines": 5},
+    {"tag": "结尾副歌", "lines": 6},
+    {"tag": "尾声", "lines": 3}
+  ],
+  "hook": {
+    "source_section": "副歌一",
+    "line_numbers": [1, 3],
+    "repeat_sections": ["副歌二"],
+    "transform_section": "结尾副歌",
+    "strategy": "sentence-level repetition only: hook pair (lines 1,3) verbatim across all choruses; content lines upgraded every pass (副歌二: 望着/乡音/多少年/就等; 结尾副歌: 连着/看得见/老桌前/坐到我身边); no whole-section verbatim repeats (L8)"
+  },
+  "fixed_readings": {
+    "阿嫲": "ā mǎ",
+    "歌仔戏": "gē zǐ xì",
+    "念白": "niàn bái",
+    "白发": "bái fà",
+    "模样": "mú yàng",
+    "的/了/着": "light, never on sustained notes"
+  },
+  "files": {
+    "design": "lyrics-design.md",
+    "lyrics": "lyrics-zh.md",
+    "reading_translation": "lyrics-singing-guide.md",
+    "production_prompt": "music-agent-prompt.md",
+    "cover_prompt": "cover-prompt.md",
+    "release_copy": "release-copy.md",
+    "submission_guide": "提交攻略.md"
+  }
+}

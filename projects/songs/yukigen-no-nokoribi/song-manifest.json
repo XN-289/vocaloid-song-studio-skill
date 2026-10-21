@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "title": {
+    "ja": "雪原の残り火",
+    "zh": "雪原上的余火"
+  },
+  "language": "ja",
+  "project_type": "original-vocal-synth-narrative-song",
+  "lyrics_version": "v1.1-frozen-2026-09-07",
+  "target": {
+    "duration_seconds": {
+      "min": 215,
+      "max": 235
+    },
+    "bpm": 172,
+    "meter": "4/4",
+    "key_strategy": "B minor verses, D-leaning chorus, E minor final chorus",
+    "vocal_range": "G3-E5, optional brief F#5"
+  },
+  "lead_voice": {
+    "gender": "female",
+    "age_feel": "adult",
+    "timbre": "clear, cold-edged, mature virtual female lead",
+    "narrative_role": "first-person narrator for the male survivor without changing the character"
+  },
+  "sections": [
+    {"tag": "Intro", "lines": 2},
+    {"tag": "Verse 1", "lines": 8},
+    {"tag": "Pre-Chorus 1", "lines": 4},
+    {"tag": "Chorus 1", "lines": 8},
+    {"tag": "Verse 2", "lines": 8},
+    {"tag": "Pre-Chorus 2", "lines": 4},
+    {"tag": "Chorus 2", "lines": 8},
+    {"tag": "Bridge", "lines": 8},
+    {"tag": "Final Chorus", "lines": 8},
+    {"tag": "Outro", "lines": 2}
+  ],
+  "hook": {
+    "source_section": "Chorus 1",
+    "line_numbers": [1, 2, 3, 4],
+    "repeat_sections": ["Chorus 2"],
+    "transform_section": "Final Chorus",
+    "strategy": "minimum-word semantic reversal over recognizable melody"
+  },
+  "fixed_readings": {
+    "黄金": "こがね",
+    "戦友": "せんゆう",
+    "懐中時計": "かいちゅうどけい",
+    "雪原": "せつげん",
+    "残り火": "のこりび",
+    "鉱脈": "こうみゃく",
+    "ナイフ": "ないふ"
+  },
+  "files": {
+    "design": "lyrics-design.md",
+    "lyrics": "lyrics-ja.md",
+    "reading_translation": "lyrics-reading-zh.md",
+    "production_prompt": "music-agent-prompt.md",
+    "cover_prompt": "cover-prompt.md",
+    "release_copy": "release-copy.md"
+  }
+}
